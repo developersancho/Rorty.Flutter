@@ -1,0 +1,6 @@
+package com.developersancho.rorty.rorty_flutter
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}

@@ -1,0 +1,14 @@
+{
+  "characters": "Characters",
+  "episodes": "Episodes",
+  "locations": "Locations",
+  "settings": "Settings",
+  "app_language": "App Language",
+  "app_version": "App Version",
+  "theme_mode": "Theme Mode",
+  "abouts": "Abouts",
+  "turkish": "Turkish",
+  "english": "English",
+  "languageChangeTitle":"Language Change",
+  "languageChangeSubtitle":"You can change application language"
+}

@@ -44,10 +44,10 @@ class SettingsScreen extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 _buildThemeView(tr("theme_mode"), appThemeProvider, context),
-                GestureDetector(
-                    behavior: HitTestBehavior.opaque,
-                    onTap: () => _navigateLanguage(context),
-                    child: _buildRowView(tr("app_language"), "", true, true)),
+                // GestureDetector(
+                //     behavior: HitTestBehavior.opaque,
+                //     onTap: () => _navigateLanguage(context),
+                //     child: _buildRowView(tr("app_language"), "", true, true)),
                 GestureDetector(
                     behavior: HitTestBehavior.opaque,
                     onTap: () => _navigateAbout(context),

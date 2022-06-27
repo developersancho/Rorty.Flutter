@@ -128,14 +128,14 @@ class LocationsScreen extends StatelessWidget {
                               fontSize: 14,
                             ),
                           ),
-                          FavoriteButton(
-                            iconSize: 26,
-                            valueChanged: (isFavorite) {
-                              if (kDebugMode) {
-                                print('Is Favorite $isFavorite)');
-                              }
-                            },
-                          )
+                          // FavoriteButton(
+                          //   iconSize: 26,
+                          //   valueChanged: (isFavorite) {
+                          //     if (kDebugMode) {
+                          //       print('Is Favorite $isFavorite)');
+                          //     }
+                          //   },
+                          // )
                         ],
                       ),
                     ],

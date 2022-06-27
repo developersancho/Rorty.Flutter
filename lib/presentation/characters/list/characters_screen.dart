@@ -134,25 +134,14 @@ class CharactersScreen extends StatelessWidget {
                           CharacterStatusView(
                             status: items[index].status ?? "",
                           ),
-                          FavoriteButton(
-                            iconSize: 26,
-                            valueChanged: (isFavorite) {
-                              if (kDebugMode) {
-                                print('Is Favorite $isFavorite)');
-                              }
-                            },
-                          )
-                          // IconButton(
-                          //   iconSize: 18,
-                          //   padding: EdgeInsets.zero,
-                          //   constraints: const BoxConstraints(),
-                          //   icon: const Icon(
-                          //     Icons.heart_broken,
-                          //   ),
-                          //   onPressed: () {
-                          //     print("ccc");
+                          // FavoriteButton(
+                          //   iconSize: 26,
+                          //   valueChanged: (isFavorite) {
+                          //     if (kDebugMode) {
+                          //       print('Is Favorite $isFavorite)');
+                          //     }
                           //   },
-                          // ),
+                          // )
                         ],
                       ),
                     ],

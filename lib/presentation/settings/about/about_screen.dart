@@ -1,8 +1,8 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:rorty_flutter/app/widgets/app_bar.dart';
 
 class AboutScreen extends StatelessWidget {
-
   static const route = '/about';
 
   const AboutScreen({Key? key}) : super(key: key);
@@ -16,7 +16,7 @@ class AboutScreen extends StatelessWidget {
   }
 
   RortyAppBarWithBack _buildAppBar() {
-    return const RortyAppBarWithBack(title: "About");
+    return RortyAppBarWithBack(title: tr("abouts"));
   }
 
   Widget _buildBody(BuildContext context) {

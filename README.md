@@ -40,6 +40,7 @@ mobile development, and a full API reference.
     <td><img src="art/screenshots/android/abouts.png" width=250 height=150></td>
   </tr>
  </table>
+
 #### Android Dark Screenshots
 <table>
   <tr>

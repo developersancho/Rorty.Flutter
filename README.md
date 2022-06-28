@@ -15,7 +15,9 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials, samples, guidance on
 mobile development, and a full API reference.
 
-#### Android Light Screenshots
+## Screenshots
+
+#### Android-Light
 <table>
   <tr>
     <td>Splash</td>
@@ -41,7 +43,7 @@ mobile development, and a full API reference.
   </tr>
  </table>
 
-#### Android Dark Screenshots
+#### Android-Dark
 <table>
   <tr>
     <td>Splash</td>

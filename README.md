@@ -120,3 +120,51 @@ mobile development, and a full API reference.
     <td><img src="art/screenshots/ios/abouts-dark.png" width=250 height=150></td>
   </tr>
  </table>
+
+#### Android-Light
+<table>
+  <tr>
+    <td>Splash</td>
+    <td>Home</td>
+  </tr>
+  <tr>
+    <td><img src="art/screenshots/android/splash.png" width=250></td>
+    <td><img src="art/screenshots/android/characters.png" width=250></td>
+  </tr>
+ </table>
+
+#### Android-Dark
+<table>
+  <tr>
+    <td>Splash</td>
+    <td>Home</td>
+  </tr>
+  <tr>
+    <td><img src="art/screenshots/android/splash.png" width=250></td>
+    <td><img src="art/screenshots/android/characters-dark.png" width=250></td>
+  </tr>
+ </table>
+
+#### iOS-Light
+<table>
+  <tr>
+    <td>Splash</td>
+    <td>Home</td>
+  </tr>
+  <tr>
+    <td><img src="art/screenshots/ios/splash.png" width=250></td>
+    <td><img src="art/screenshots/ios/characters.png" width=250></td>
+  </tr>
+ </table>
+
+#### iOS-Dark
+<table>
+  <tr>
+    <td>Splash</td>
+    <td>Home</td>
+  </tr>
+  <tr>
+    <td><img src="art/screenshots/ios/splash.png" width=250></td>
+    <td><img src="art/screenshots/ios/characters-dark.png" width=250></td>
+  </tr>
+ </table>

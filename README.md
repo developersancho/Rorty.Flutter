@@ -52,8 +52,8 @@ mobile development, and a full API reference.
     <td>Home-Dark</td>
   </tr>
   <tr>
-    <td><img src="art/screenshots/desktop/home.png" width=250></td>
-    <td><img src="art/screenshots/desktop/home-dark.png" width=250></td>
+    <td><img src="art/screenshots/desktop/home.png"></td>
+    <td><img src="art/screenshots/desktop/home-dark.png"></td>
   </tr>
  </table>
 
@@ -64,7 +64,7 @@ mobile development, and a full API reference.
     <td>Home-Dark</td>
   </tr>
   <tr>
-    <td><img src="art/screenshots/web/home.png" width=250></td>
-    <td><img src="art/screenshots/web/home-dark.png" width=250></td>
+    <td><img src="art/screenshots/web/home.png"></td>
+    <td><img src="art/screenshots/web/home-dark.png"></td>
   </tr>
  </table>

@@ -21,8 +21,8 @@ mobile development, and a full API reference.
 <table>
   <tr>
     <td>Splash</td>
-    <td>Home-Light</td>
-    <td>Home-Dark</td>
+    <td>Light</td>
+    <td>Dark</td>
   </tr>
   <tr>
     <td><img src="art/screenshots/android/splash.png" width=250></td>
@@ -35,8 +35,8 @@ mobile development, and a full API reference.
 <table>
   <tr>
     <td>Splash</td>
-    <td>Home-Light</td>
-    <td>Home-Dark</td>
+    <td>Light</td>
+    <td>Dark</td>
   </tr>
   <tr>
     <td><img src="art/screenshots/ios/splash.png" width=250></td>
@@ -48,8 +48,8 @@ mobile development, and a full API reference.
 #### MacOS-Desktop
 <table>
   <tr>
-    <td>Home-Light</td>
-    <td>Home-Dark</td>
+    <td>Light</td>
+    <td>Dark</td>
   </tr>
   <tr>
     <td><img src="art/screenshots/desktop/home.png"></td>
@@ -60,8 +60,8 @@ mobile development, and a full API reference.
 #### WEB
 <table>
   <tr>
-    <td>Home-Light</td>
-    <td>Home-Dark</td>
+    <td>Light</td>
+    <td>Dark</td>
   </tr>
   <tr>
     <td><img src="art/screenshots/web/home.png"></td>

@@ -52,6 +52,7 @@ dependencies:
   flutter_switch: ^0.3.2
   shared_preferences: ^2.0.15
   easy_localization: ^3.0.1
+  url_launcher: ^6.1.4
 
   #floor: ^1.1.0
 
@@ -84,9 +85,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/images/intro_1.jpeg
-    - assets/images/intro_2.jpeg
-    - assets/images/intro_3.png
+    - assets/images/
     - assets/resources/
   # Fonts
   fonts:

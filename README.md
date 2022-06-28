@@ -30,15 +30,15 @@ mobile development, and a full API reference.
     <td>Abouts</td>
   </tr>
   <tr>
-    <td><img src="art/screenshots/splash.png" width=200 height=200></td>
-    <td><img src="art/screenshots/characters.png" width=200 height=200></td>
-    <td><img src="art/screenshots/character-detail.png" width=200 height=200></td>
-    <td><img src="art/screenshots/episodes.png" width=200 height=200></td>
-    <td><img src="art/screenshots/episode-detail.png" width=200 height=200></td>
-    <td><img src="art/screenshots/locations.png" width=200 height=200></td>
-    <td><img src="art/screenshots/location-detail.png" width=200 height=200></td>
-    <td><img src="art/screenshots/settings.png" width=200 height=200></td>
-    <td><img src="art/screenshots/abouts.png" width=200 height=200></td>
+    <td><img src="art/screenshots/android/splash.png" width=200 height=200></td>
+    <td><img src="art/screenshots/android/characters.png" width=200 height=200></td>
+    <td><img src="art/screenshots/android/character-detail.png" width=200 height=200></td>
+    <td><img src="art/screenshots/android/episodes.png" width=200 height=200></td>
+    <td><img src="art/screenshots/android/episode-detail.png" width=200 height=200></td>
+    <td><img src="art/screenshots/android/locations.png" width=200 height=200></td>
+    <td><img src="art/screenshots/android/location-detail.png" width=200 height=200></td>
+    <td><img src="art/screenshots/android/settings.png" width=200 height=200></td>
+    <td><img src="art/screenshots/android/abouts.png" width=200 height=200></td>
   </tr>
  </table>
 
@@ -55,14 +55,14 @@ mobile development, and a full API reference.
     <td>Abouts</td>
   </tr>
   <tr>
-    <td><img src="art/screenshots/splash.png" width=200 height=200></td>
-    <td><img src="art/screenshots/characters-dark.png" width=200 height=200></td>
-    <td><img src="art/screenshots/character-detail-dark.png" width=200 height=200></td>
-    <td><img src="art/screenshots/episodes-dark.png" width=200 height=200></td>
-    <td><img src="art/screenshots/episode-detail-dark.png" width=200 height=200></td>
-    <td><img src="art/screenshots/locations-dark.png" width=200 height=200></td>
-    <td><img src="art/screenshots/location-detail-dark.png" width=200 height=200></td>
-    <td><img src="art/screenshots/settings-dark.png" width=200 height=200></td>
-    <td><img src="art/screenshots/abouts-dark.png" width=200 height=200></td>
+    <td><img src="art/screenshots/android/splash.png" width=200 height=200></td>
+    <td><img src="art/screenshots/android/characters-dark.png" width=200 height=200></td>
+    <td><img src="art/screenshots/android/character-detail-dark.png" width=200 height=200></td>
+    <td><img src="art/screenshots/android/episodes-dark.png" width=200 height=200></td>
+    <td><img src="art/screenshots/android/episode-detail-dark.png" width=200 height=200></td>
+    <td><img src="art/screenshots/android/locations-dark.png" width=200 height=200></td>
+    <td><img src="art/screenshots/android/location-detail-dark.png" width=200 height=200></td>
+    <td><img src="art/screenshots/android/settings-dark.png" width=200 height=200></td>
+    <td><img src="art/screenshots/android/abouts-dark.png" width=200 height=200></td>
   </tr>
  </table>

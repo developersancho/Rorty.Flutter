@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
@@ -71,8 +72,8 @@ class EpisodesScreen extends StatelessWidget {
   }
 
   RortyAppBar _buildAppBar() {
-    return const RortyAppBar(
-      title: "Episodes",
+    return RortyAppBar(
+      title: tr("episodes"),
     );
   }
 

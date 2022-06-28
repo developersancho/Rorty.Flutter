@@ -3,6 +3,9 @@
   "episodes": "Bölümler",
   "locations": "Konumlar",
   "settings": "Ayarlar",
+  "character_detail": "Karakter Detay",
+  "episode_detail": "Bölüm Detay",
+  "location_detail": "Konum Detay",
   "app_language": "Uygulama Dili",
   "app_version": "Uygulama Versiyonu",
   "theme_mode": "Tema Modu",
@@ -10,5 +13,15 @@
   "turkish": "Türkçe",
   "english": "İngilizce",
   "languageChangeTitle": "Dili Değiştir",
-  "languageChangeSubtitle": "Uygulama dilini değiştirebilirsiniz"
+  "languageChangeSubtitle": "Uygulama dilini değiştirebilirsiniz",
+  "episode": "Bölüm",
+  "dimension": "Boyut",
+  "air_date": "Hava Tarihi",
+  "species": "Türler",
+  "gender": "Cinsiyet",
+  "type": "Tip",
+  "last_know_location": "Son Bilinen Konum",
+  "location": "Konum",
+  "name": "İsim",
+  "information": "Bilgi"
 }

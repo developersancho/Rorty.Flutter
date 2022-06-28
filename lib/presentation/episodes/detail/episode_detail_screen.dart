@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:rorty_flutter/app/widgets/app_bar.dart';
@@ -41,7 +42,7 @@ class EpisodeDetailScreen extends StatelessWidget {
   }
 
   RortyAppBarWithBack _buildAppBar() {
-    return const RortyAppBarWithBack(title: "Episode Detail");
+    return RortyAppBarWithBack(title: tr("episode_detail"));
   }
 
   Widget _buildBody(EpisodeDetailViewModel viewModel) {
@@ -53,15 +54,15 @@ class EpisodeDetailScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              _buildTitle("Information"),
-              _buildRowView("Name", viewModel.dto?.name ?? "***", true, false),
+              _buildTitle(tr("information")),
+              _buildRowView(tr("name"), viewModel.dto?.name ?? "***", true, false),
               _buildRowView(
-                  "Episode", viewModel.dto?.episode ?? "***", true, false),
+                  tr("episode"), viewModel.dto?.episode ?? "***", true, false),
               _buildRowView(
-                  "Air Date", viewModel.dto?.airDate ?? "***", false, false),
+                  tr("air_date"), viewModel.dto?.airDate ?? "***", false, false),
               if (viewModel.dto != null &&
                   viewModel.dto!.characterDtoList.isNotEmpty)
-                _buildTitle("Characters"),
+                _buildTitle(tr("characters")),
               _buildCharacters(viewModel.dto?.characterDtoList ?? List.empty())
             ],
           ),

@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
@@ -88,17 +89,17 @@ class _CharacterDetailScreenState extends State<CharacterDetailScreen> {
     return Column(
       mainAxisAlignment: MainAxisAlignment.start,
       children: [
-        _buildTitle("Information"),
+        _buildTitle(tr("information")),
         _buildCharacterStatusView(),
-        _buildRowView("Name", viewModel.dto?.name ?? "", true, false),
-        _buildRowView("Species", viewModel.dto?.species ?? "", true, false),
-        _buildRowView("Gender", viewModel.dto?.gender ?? "", false, false),
-        _buildTitle("Location"),
+        _buildRowView(tr("name"), viewModel.dto?.name ?? "", true, false),
+        _buildRowView(tr("species"), viewModel.dto?.species ?? "", true, false),
+        _buildRowView(tr("gender"), viewModel.dto?.gender ?? "", false, false),
+        _buildTitle(tr("location")),
         GestureDetector(
           behavior: HitTestBehavior.opaque,
           onTap: () => _navigateLocationDetail(
               context, viewModel.dto?.origin?.locationId),
-          child: _buildRowView("Last Know Location",
+          child: _buildRowView(tr("last_know_location"),
               viewModel.dto?.origin?.name ?? "", true, true),
         ),
         GestureDetector(
@@ -106,9 +107,9 @@ class _CharacterDetailScreenState extends State<CharacterDetailScreen> {
           onTap: () => _navigateLocationDetail(
               context, viewModel.dto?.location?.locationId),
           child: _buildRowView(
-              "Location", viewModel.dto?.location?.name ?? "", false, true),
+              tr("location"), viewModel.dto?.location?.name ?? "", false, true),
         ),
-        _buildTitle("Episodes"),
+        _buildTitle(tr("episodes")),
         _buildEpisodes(viewModel.dto?.episodeDtoList ?? List.empty())
       ],
     );
@@ -203,7 +204,7 @@ class _CharacterDetailScreenState extends State<CharacterDetailScreen> {
   }
 
   RortyAppBarWithBack _buildAppBar() {
-    return const RortyAppBarWithBack(title: "Character Detail");
+    return RortyAppBarWithBack(title: tr("character_detail"));
   }
 
   _navigateLocationDetail(BuildContext context, int? id) {

@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:rorty_flutter/app/widgets/app_bar.dart';
@@ -41,7 +42,7 @@ class LocationDetailScreen extends StatelessWidget {
   }
 
   RortyAppBarWithBack _buildAppBar() {
-    return const RortyAppBarWithBack(title: "Location Detail");
+    return RortyAppBarWithBack(title: tr("location_detail"));
   }
 
   Widget _buildBody(LocationDetailViewModel viewModel) {
@@ -53,14 +54,16 @@ class LocationDetailScreen extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              _buildTitle("Information"),
-              _buildRowView("Name", viewModel.dto?.name ?? "***", true, false),
+              _buildTitle(tr("information")),
               _buildRowView(
-                  "Dimension", viewModel.dto?.dimension ?? "***", true, false),
-              _buildRowView("Type", viewModel.dto?.type ?? "***", false, false),
+                  tr("name"), viewModel.dto?.name ?? "***", true, false),
+              _buildRowView(tr("dimension"), viewModel.dto?.dimension ?? "***",
+                  true, false),
+              _buildRowView(
+                  tr("type"), viewModel.dto?.type ?? "***", false, false),
               if (viewModel.dto != null &&
                   viewModel.dto!.residentDtoList.isNotEmpty)
-                _buildTitle("Characters"),
+                _buildTitle(tr("characters")),
               _buildCharacters(viewModel.dto?.residentDtoList ?? List.empty())
             ],
           ),

@@ -79,7 +79,7 @@ Components of data layer include:
 This is the core layer of the application. The ```domain``` layer is independent of any other layers thus ] domain business logic can be independent from other layers.This means that changes in other layers will have no effect on domain layer eg.  screen UI (presentation layer) or changing database (data layer) will not result in any code change withing domain layer.
 
 Components of domain layer include:
-- __usecase__: They enclose a single action, like getting data from a database or posting to a service. They use the repositories to resolve the action they are supposed to do. They usually override the operator ```invoke``` , so they can be called as a function.
+- __usecase__: They enclose a single action, like getting data from a database or posting to a service. They use the repositories to resolve the action they are supposed to do.
 
 ### Presentation
 The ```presentation``` layer contains components involved in showing information to the user. The main part of this layer are the Views(widgets) and ViewModels.
@@ -140,7 +140,7 @@ The ```presentation``` layer contains components involved in showing information
  </table>
 
 # Tech Stacks
-This project uses many of the popular libraries, plugins and tools of the android ecosystem.
+This project uses many of the popular libraries, plugins and tools of the flutter ecosystem.
 - [Stacked](https://pub.dev/packages/stacked) - An architecture and widgets for an MVVM inspired architecture in Flutter.
 - [Provider](https://pub.dev/packages/provider) - A wrapper around InheritedWidget to make them easier to use and more reusable.
 - [Get It](https://pub.dev/packages/get_it) - Dependency Injection library.

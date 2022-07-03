@@ -158,7 +158,7 @@ This project uses many of the popular libraries, plugins and tools of the flutte
 - [Lints](https://pub.dev/packages/flutter_lints) - This package contains a recommended set of lints for Flutter apps, packages, and plugins to encourage good coding practices.
 
 ## 🚀 Posts In Medium
-[Article](...)
+[Article](https://medium.com/innovance-company-blog/flutter-clean-architecture-with-rorty-app-7e7a55f80009)
 
 ## 🤝 Contributing
 

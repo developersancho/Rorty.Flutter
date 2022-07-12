@@ -9,6 +9,8 @@
 
 <h1 align="center"> Rorty Flutter </h1>
 
+# Rorty 📺 (work-in-progress for V2 👷🔧️👷‍♀️⛏)
+
 ## Getting Started
 
 Flutter Clean Architecture in Rorty is a sample project that presents modern, approach to [Flutter](https://flutter.dev/) application development using [Dart](https://dart.dev/) and latest tech-stack.

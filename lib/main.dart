@@ -59,19 +59,19 @@ class RootApp extends StatelessWidget {
         path: CharacterDetailScreen.route,
         name: CharacterDetailScreen.route,
         builder: (context, state) => CharacterDetailScreen(
-            characterId: state.params['characterId'] ?? ''),
+            characterId: state.pathParameters['characterId'] ?? ''),
       ),
       GoRoute(
         path: EpisodeDetailScreen.route,
         name: EpisodeDetailScreen.route,
         builder: (context, state) =>
-            EpisodeDetailScreen(episodeId: state.params['episodeId'] ?? ''),
+            EpisodeDetailScreen(episodeId: state.pathParameters['episodeId'] ?? ''),
       ),
       GoRoute(
         path: LocationDetailScreen.route,
         name: LocationDetailScreen.route,
         builder: (context, state) =>
-            LocationDetailScreen(locationId: state.params['locationId'] ?? ''),
+            LocationDetailScreen(locationId: state.pathParameters['locationId'] ?? ''),
       ),
       GoRoute(
         path: LanguageScreen.route,
@@ -96,6 +96,7 @@ class RootApp extends StatelessWidget {
         child: Consumer<AppThemeProvider>(
             builder: (context, AppThemeProvider themeNotifier, child) {
           return MaterialApp.router(
+            routeInformationProvider: _router.routeInformationProvider,
             routeInformationParser: _router.routeInformationParser,
             routerDelegate: _router.routerDelegate,
             title: "Rorty",

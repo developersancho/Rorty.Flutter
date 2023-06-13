@@ -28,8 +28,8 @@ class GetLocations
         return DataSuccess(httpResponse.data.results.toLocationDtoList());
       }
       return DataFailed(httpResponse.response.statusMessage);
-    } on DioError catch (e) {
-      final errorMessage = DioException.fromDioError(e).toString();
+    } on DioException catch (e) {
+      final errorMessage = MyDioException.fromDioError(e).toString();
       if (kDebugMode) {
         print(errorMessage);
       }

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
-class RortyAppBar extends StatelessWidget with PreferredSizeWidget {
+class RortyAppBar extends StatelessWidget implements PreferredSizeWidget {
   final String title;
 
   const RortyAppBar({
@@ -21,7 +21,7 @@ class RortyAppBar extends StatelessWidget with PreferredSizeWidget {
   Size get preferredSize => const Size.fromHeight(56);
 }
 
-class RortyAppBarWithBack extends StatelessWidget with PreferredSizeWidget {
+class RortyAppBarWithBack extends StatelessWidget implements PreferredSizeWidget {
   final String title;
 
   const RortyAppBarWithBack({

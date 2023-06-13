@@ -8,9 +8,9 @@ class DioFactory {
 
   BaseOptions _createBaseOptions() => BaseOptions(
         baseUrl: _baseUrl,
-        receiveTimeout: 5000,
-        sendTimeout: 5000,
-        connectTimeout: 5000,
+        receiveTimeout: const Duration(seconds: 5),
+        sendTimeout: const Duration(seconds: 5),
+        connectTimeout: const Duration(seconds: 5),
       );
 
   Dio create() => Dio(_createBaseOptions())

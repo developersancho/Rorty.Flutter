@@ -158,6 +158,6 @@ class LocationsScreen extends StatelessWidget {
 
   void _navigateDetail(BuildContext context, int? id) {
     context
-        .pushNamed(LocationDetailScreen.route, params: {'locationId': '$id'});
+        .pushNamed(LocationDetailScreen.route, pathParameters: {'locationId': '$id'});
   }
 }

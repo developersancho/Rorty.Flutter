@@ -209,11 +209,11 @@ class _CharacterDetailScreenState extends State<CharacterDetailScreen> {
 
   _navigateLocationDetail(BuildContext context, int? id) {
     context
-        .pushNamed(LocationDetailScreen.route, params: {'locationId': '$id'});
+        .pushNamed(LocationDetailScreen.route, pathParameters: {'locationId': '$id'});
   }
 
   _navigateEpisodeDetail(BuildContext context, int? id) {
-    context.pushNamed(EpisodeDetailScreen.route, params: {'episodeId': '$id'});
+    context.pushNamed(EpisodeDetailScreen.route, pathParameters: {'episodeId': '$id'});
   }
 
   Widget _buildEpisodes(List<EpisodeDto> list) {

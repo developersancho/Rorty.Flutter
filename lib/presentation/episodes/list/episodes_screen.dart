@@ -78,7 +78,7 @@ class EpisodesScreen extends StatelessWidget {
   }
 
   void _navigateDetail(BuildContext context, int? id) {
-    context.pushNamed(EpisodeDetailScreen.route, params: {'episodeId': '$id'});
+    context.pushNamed(EpisodeDetailScreen.route, pathParameters: {'episodeId': '$id'});
   }
 
   Widget _episodeWidget(

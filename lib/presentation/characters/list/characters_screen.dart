@@ -158,7 +158,7 @@ class CharactersScreen extends StatelessWidget {
 
   void _navigateDetail(BuildContext context, int? id) {
     context
-        .pushNamed(CharacterDetailScreen.route, params: {'characterId': '$id'});
+        .pushNamed(CharacterDetailScreen.route, pathParameters: {'characterId': '$id'});
   }
 
   RortyAppBar _buildAppBar() {
